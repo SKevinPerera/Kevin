@@ -380,7 +380,7 @@ form textarea{
 		padding: 70px 3% 60px;
 	}
 	.home{
-		height: 85vh;
+		height: 100vh;
 	}
 	.about{
 		grid-template-columns: 1fr;
