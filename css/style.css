@@ -481,3 +481,11 @@ form textarea{
 	justify-content: flex-start;
 	
 }
+
+#logicon-btn{
+	text-decoration: none;
+	background: none;
+	border: none;
+	color: var(--main-color);
+	font-weight: 600;
+}
