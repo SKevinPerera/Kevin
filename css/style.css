@@ -465,3 +465,7 @@ form textarea{
 	width: 100%;
 	max-width: 460px;
 }
+
+.company-link{
+	color: var(--second-color);
+}
