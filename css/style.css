@@ -388,6 +388,12 @@ form textarea{
 	.about-img{
 		text-align: center;
 	}
+	.mself{
+		grid-template-columns: 1fr;
+	}
+	.mself-img{
+		text-align: center;
+	}
 	.contact{
 		grid-template-columns: 1fr;
 	}
@@ -420,4 +426,42 @@ form textarea{
 		--h1-font: 3.7rem;
 	  --h2-font: 2.7rem;
 	}
+}
+
+.mself{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+}
+.mself-text h4{
+	margin: 10px 0;
+	color: var(--main-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.mself-text h2{
+	font-size: var(--h2-font);
+}
+.mself-text p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+.mself-gri{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 3rem;
+}
+.mself-in h5{
+	font-size: 22px;
+	font-weight: 600;
+}
+.mself-img img{
+	height: auto;
+	width: 100%;
+	max-width: 460px;
 }
